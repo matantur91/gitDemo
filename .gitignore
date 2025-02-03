@@ -8,4 +8,8 @@ Simulators/*
 Docs/*
 ATE_QuadroCopter/Bin/*
 .vs/*
+<<<<<<< HEAD
 *.vs
+=======
+*.vs
+>>>>>>> branch2
