@@ -16,6 +16,7 @@ namespace HwControlApp.Model
         public static double AIOSamplesPerSec = 125;
         public static int AIOInBufferSize = 250;
         public static int SampleBufferEdgeRemove = 25;
+        public static int test1 = 72;
 
     }
 }
