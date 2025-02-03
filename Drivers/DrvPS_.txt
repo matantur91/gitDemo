@@ -1,0 +1,89 @@
+Version 4.13.0.0 - 2018/08/14 - Yossic Changes made by reuven)
+- Add support for device Lambda Zup 36-6.
+
+Version 4.12.0.0 - 2018/07/10 - Yossic 
+- Change the name of the parameter dVoltageLimit to dVSet.
+
+Version 4.11.0.3 - 2018/07/03 - Yossic  (Changes made by Tal)
+- Add support for device genesys 60-14 .
+
+Version 4.11.0.2 - 2018/06/21 - Yossic  (Changes made by reuven)
+- Add support for device genesys  30-110 and 60-40 .
+
+Version 4.11.0.1 - 2018/06/18 - Yossic
+- Fix bugs of NEVO device.
+- Add address to the connection string.
+- Fix the connection string format.Changed from [COM:XX] to COMXX. The rest of the string remains the same.
+
+Version 4.11.0 - 2018/04/22 - Yossic
+- Clean files from cws for nevo device
+
+Version 4.10.0 - 2018/02/18 - Yossic
+- Compiled for RATE bundle V03.05.00
+- Add a bug fix from Noam
+
+Versiom 4.9.0 - 2017/07/12 - hamutalt
+- Fixed first time init after restart bug (PSU UART buffer is not clear) for z+ and lambda gen.
+
+version 4.8.0 - 2017/04/20 - noambro
+- Added "cases" for powerbox to the switch-case of UpdateLedStatus and DrvPS_GetUnderOverVoltageProtection
+  these cases log a warning that this function is not supported by powerbox
+
+version 4.7.0 - 2016/12/22 - noambro
+- Added optional argument to DrvPS_AddDevice: iGroupId
+  the groupId default is 0 (no group case).
+- Added support in PowerBox group functions (including specific GUI).
+- Added support in DrvPS_Group_SetOutput for labda zup+ and Genesys.
+
+version 4.6.2.0 - 2016/11/06 - hamutalt
+- Added support in lambda zup60-7
+
+Version 4.6.1.0 - 2016/04/25 - sergiys
+- added support for old firmwave version in genessis devices. ('iFirmVersion=0' in INI file means old firmware)
+- genesys.c, genesys.h files changed - functions Genesys_setFoldbackEx, Genesys_setOutEx added
+
+Version 4.6.0.0 - 2016/04/25 - Eranv
+- Recompile release mode.
+- Remove CVI dependencies.
+
+Version 4.5.1 - 2016/04/04 - Irenal
+- Partial Power box device support - after integration. 
+- Power On\Off function is not implemented for Power box. Don't take this version for this device.
+
+Version 4.5.0 - 2015/10/2015 - AlexK
+- Added power box device - before integration. 
+- Check in with Eran and Hamutal
+
+Version 4.4.0 - 2015/03/26 - Talkl
+- On the genesys.c file, set out changed to OUT ON/OFF (was OUT 1/0)
+- On the genesys.c file, set fold changed to FLD ON/OFF (was FLD 1/0)
+
+Version 4.3.0 - 2015/01/15 - Eranv
+- insert ifdef __cplusplus for C & C++ code.
+- remove 2 compilation warnings.
+
+Version 4.1.1 - 2013/04/25 - Taltol
+- Type LAMBDA_GENESYS_PLUS added. (includes changes in Genesys.prj)
+	  
+Version 4.0.1 - 2013/04/25 - Talkl
+- removed "Winbase.h", "winver.h"
+
+Version 4.0.0 - 2013/04/23 - Talkl
+- fixed help panel name & help
+- compiled in stdcall
+- requires: 
+- support only x86 (32 bit) architecture
+- used MALLOC and FREE instead of malloc(), free()
+- removed Version.lib
+- compatible with DrvTemplate V2.0.0
+- removed INI file from dev environment
+- added INI file example to H file (supports stack size & ATE_Generic.dll integration)
+- fixed timeout when closing device window
+- added support for logger filtering (DrvPS_SetLogState, DrvPS_GetLogState) 
+- added default INI file for holding Drivers.INI in case none is entered in 'DrvPS_Panel.exe'
+- added build date & current Drivers.INI file to help panel.
+- added 'show main' button on the device panel - brings up the main driver panel.
+- added custom stack size for main panel thread & for devices thread.
+- added threads stack size to log.
+- changed GetDriverFunction method (now using 'GeneralUtilities').
+- added support for hiding frequencies (DrvPS_GetFrequenciesVisible, DrvPS_SetFrequenciesVisible)

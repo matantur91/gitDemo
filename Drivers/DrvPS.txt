@@ -1,0 +1,76 @@
+Version 6.17.1 - 08/06/2022 - Matanoh
+- MAX_DEV_NAME_LEN updated to 40 characters
+- Add INI paramter for Genesys and Genesys Plus - 'bResetDevice' = 1 to print extra log messages
+- Add Support to all undefined devices  
+
+Version 6.17.0 - 23/01/2022 - Matanoh
+- LAMBDA_ZUP Fixed bug init DevAddress
+
+Version 6.16.0 - 30/12/2021 - Matanoh
+- LAMBDA_ZUP Reset out only when 'bResetDevice' flag == true
+
+Version 6.15.0 - 06/12/2021 - Matanoh
+- GENESYS set out only when 'bResetDevice' flag == true
+
+Version 6.14.0 - 16/12/2020 - Itayl & Matanoh
+- Add functions - GetActualCurrent, SetAdderss
+- Change Genesys-Serial comunication from ComConfig to Visa
+
+Version 6.13.0 - 16/12/2020 - Barams & Matanoh
+- Add Support to LAMBDA_ZUP GetOutput function
+
+Version 6.12.0 - 30/11/2020 - Yossic 
+- Add function DrvPS_GetCurrentSamples. Returns array of current measurement. (Supported in LAMBDA_GENESYS,LAMBDA_GENESYS_PLUS)
+
+Version 6.11.1 - 30/09/2020 - noambro - try Genesys_modelIdentification 3 times
+
+Version 6.11.0 - 30/03/2020 - hamutalt	
+- Recompilation for Drivers bundle 4.0
+- First git version.
+
+Version 6.10.0 - 2020/01/27 - Yossic				
+- Change the reference to  LoggerClientCVI_stdcall. Set to VPSD_CommonCode.
+
+Version 6.9.0 - 2019/5/15 - Matanoh
+- Add support for ZPlus g60-85 (serial)
+- Fixed a bug in LAMBDA_GENESYS_LAN (BARAMS)
+
+Version 6.8.0 - 2019/12/19 - Yossic				
+- Transfer "ExternalUtilities" functionality to seperate dll 
+
+Version 6.7.1 - 2019/5/15 - Matanoh
+- Add support for ZPlus g36-18
+
+Version 6.7.0 - 2019/09/11 - Matanoh
+- Windows libs relocated to bin/Dependencies  
+
+Version 6.6.0 - 2019/09/03 - Nadavzig
+- Device lock added
+
+Version 6.5.1 - 2019/07/28 - Alexte
+- Add support for device LAMBDA GEN 100-150 
+
+Version 6.5.0 - 2019/06/20 - Noambro
+- Add code for Keithly and Agilent from Galit
+
+Version 6.4.0 - 2019/06/06 - Matanoh
+- General Utilities dependencies removed
+
+Version 6.3.0 - 2019/06/03 - N7ta
+- Merge with Leshem Driver
+- Add support for device  LAMBDA, GENH 60-12 .
+- Add support for device LAMBDA GEN 80-187.5 .
+
+Version 6.2.0 - 2019/5/15 - Nadavzig
+- Add support for ZPlus Z10-20 and Z10-60
+
+Version 6.1.0 - 2018/01/02 - hadarro
+- Recompile for cvi 2017 - Compatible with Rate ver 4.1 with the following changes:
+	1. Change close function
+	2. Change the lock \ unlock
+	3. g_bDriverInitialized = FALSE; at the end of driver
+	4. lock and unlock driver use mutex now
+
+
+Version 6.0.0 - 2018/11/18 - hadarro
+- Recompile for cvi 2017 - Compatible with Rate ver 4.1

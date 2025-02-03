@@ -1,0 +1,586 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "AppInterfaces/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AppInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AppInterfaces.dll": {}
+        }
+      },
+      "DriversWrapper/1.7.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Net.Http",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net45/DriversWrapper.dll": {}
+        },
+        "runtime": {
+          "lib/net45/DriversWrapper.dll": {}
+        }
+      },
+      "DriversWrapperEx/1.2.14": {
+        "type": "package",
+        "dependencies": {
+          "DriversWrapper": "1.7.3",
+          "LoggerClientCS": "3.2.0",
+          "NuGet.Build.Tasks.Pack": "5.7.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Net.Http",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net472/DriversWrapperEx.dll": {}
+        },
+        "runtime": {
+          "lib/net472/DriversWrapperEx.dll": {}
+        }
+      },
+      "ini-parser-netstandard/2.5.2": {
+        "type": "package",
+        "compile": {
+          "lib/net20/INIFileParser.dll": {}
+        },
+        "runtime": {
+          "lib/net20/INIFileParser.dll": {}
+        }
+      },
+      "LoggerClientCS/3.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net462/LoggerClientCS.dll": {}
+        },
+        "runtime": {
+          "lib/net462/LoggerClientCS.dll": {}
+        }
+      },
+      "NuGet.Build.Tasks.Pack/5.7.0": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/_._": {}
+        }
+      },
+      "HwControlApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "AppInterfaces": "2.0.0",
+          "DriversWrapper": "1.5.0",
+          "DriversWrapperEx": "1.2.14",
+          "LoggerClientCS": "3.2.0",
+          "ini-parser-netstandard": "2.5.2"
+        },
+        "compile": {
+          "bin/placeholder/HwControlApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HwControlApp.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "AppInterfaces/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AppInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AppInterfaces.dll": {}
+        }
+      },
+      "DriversWrapper/1.7.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Net.Http",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net45/DriversWrapper.dll": {}
+        },
+        "runtime": {
+          "lib/net45/DriversWrapper.dll": {}
+        }
+      },
+      "DriversWrapperEx/1.2.14": {
+        "type": "package",
+        "dependencies": {
+          "DriversWrapper": "1.7.3",
+          "LoggerClientCS": "3.2.0",
+          "NuGet.Build.Tasks.Pack": "5.7.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Net.Http",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net472/DriversWrapperEx.dll": {}
+        },
+        "runtime": {
+          "lib/net472/DriversWrapperEx.dll": {}
+        }
+      },
+      "ini-parser-netstandard/2.5.2": {
+        "type": "package",
+        "compile": {
+          "lib/net20/INIFileParser.dll": {}
+        },
+        "runtime": {
+          "lib/net20/INIFileParser.dll": {}
+        }
+      },
+      "LoggerClientCS/3.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net462/LoggerClientCS.dll": {}
+        },
+        "runtime": {
+          "lib/net462/LoggerClientCS.dll": {}
+        }
+      },
+      "NuGet.Build.Tasks.Pack/5.7.0": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/_._": {}
+        }
+      },
+      "HwControlApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "AppInterfaces": "2.0.0",
+          "DriversWrapper": "1.5.0",
+          "DriversWrapperEx": "1.2.14",
+          "LoggerClientCS": "3.2.0",
+          "ini-parser-netstandard": "2.5.2"
+        },
+        "compile": {
+          "bin/placeholder/HwControlApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HwControlApp.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "AppInterfaces/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AppInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AppInterfaces.dll": {}
+        }
+      },
+      "DriversWrapper/1.7.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Net.Http",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net45/DriversWrapper.dll": {}
+        },
+        "runtime": {
+          "lib/net45/DriversWrapper.dll": {}
+        }
+      },
+      "DriversWrapperEx/1.2.14": {
+        "type": "package",
+        "dependencies": {
+          "DriversWrapper": "1.7.3",
+          "LoggerClientCS": "3.2.0",
+          "NuGet.Build.Tasks.Pack": "5.7.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Net.Http",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net472/DriversWrapperEx.dll": {}
+        },
+        "runtime": {
+          "lib/net472/DriversWrapperEx.dll": {}
+        }
+      },
+      "ini-parser-netstandard/2.5.2": {
+        "type": "package",
+        "compile": {
+          "lib/net20/INIFileParser.dll": {}
+        },
+        "runtime": {
+          "lib/net20/INIFileParser.dll": {}
+        }
+      },
+      "LoggerClientCS/3.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net462/LoggerClientCS.dll": {}
+        },
+        "runtime": {
+          "lib/net462/LoggerClientCS.dll": {}
+        }
+      },
+      "NuGet.Build.Tasks.Pack/5.7.0": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/_._": {}
+        }
+      },
+      "HwControlApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "AppInterfaces": "2.0.0",
+          "DriversWrapper": "1.5.0",
+          "DriversWrapperEx": "1.2.14",
+          "LoggerClientCS": "3.2.0",
+          "ini-parser-netstandard": "2.5.2"
+        },
+        "compile": {
+          "bin/placeholder/HwControlApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HwControlApp.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "AppInterfaces/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AppInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AppInterfaces.dll": {}
+        }
+      },
+      "DriversWrapper/1.7.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Net.Http",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net45/DriversWrapper.dll": {}
+        },
+        "runtime": {
+          "lib/net45/DriversWrapper.dll": {}
+        }
+      },
+      "DriversWrapperEx/1.2.14": {
+        "type": "package",
+        "dependencies": {
+          "DriversWrapper": "1.7.3",
+          "LoggerClientCS": "3.2.0",
+          "NuGet.Build.Tasks.Pack": "5.7.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Net.Http",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net472/DriversWrapperEx.dll": {}
+        },
+        "runtime": {
+          "lib/net472/DriversWrapperEx.dll": {}
+        }
+      },
+      "ini-parser-netstandard/2.5.2": {
+        "type": "package",
+        "compile": {
+          "lib/net20/INIFileParser.dll": {}
+        },
+        "runtime": {
+          "lib/net20/INIFileParser.dll": {}
+        }
+      },
+      "LoggerClientCS/3.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net462/LoggerClientCS.dll": {}
+        },
+        "runtime": {
+          "lib/net462/LoggerClientCS.dll": {}
+        }
+      },
+      "NuGet.Build.Tasks.Pack/5.7.0": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/_._": {}
+        }
+      },
+      "HwControlApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "AppInterfaces": "2.0.0",
+          "DriversWrapper": "1.5.0",
+          "DriversWrapperEx": "1.2.14",
+          "LoggerClientCS": "3.2.0",
+          "ini-parser-netstandard": "2.5.2"
+        },
+        "compile": {
+          "bin/placeholder/HwControlApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HwControlApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AppInterfaces/2.0.0": {
+      "sha512": "OcJhUAiJ1fjmj2geNp8N7H5LiWAkLUHtTYoEnFNiqoLwOwyzHhoZgOP65fmoBSFpi+EvJHJJNApfxVVzaiXvwA==",
+      "type": "package",
+      "path": "appinterfaces/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "appinterfaces.2.0.0.nupkg.sha512",
+        "appinterfaces.nuspec",
+        "lib/netstandard2.0/AppInterfaces.dll"
+      ]
+    },
+    "DriversWrapper/1.7.3": {
+      "sha512": "AzaQCn1SaaQ0jjpL421hl4GcrC1BivAIWXFr3LHpaPAAZmXB+GIXFpWOdFlFzEYA+gymGe8O5T9cWKcFtTebRw==",
+      "type": "package",
+      "path": "driverswrapper/1.7.3",
+      "files": [
+        ".nupkg.metadata",
+        "driverswrapper.1.7.3.nupkg.sha512",
+        "driverswrapper.nuspec",
+        "lib/net45/DriversWrapper.dll"
+      ]
+    },
+    "DriversWrapperEx/1.2.14": {
+      "sha512": "S+Bj0SAif3u1NFPEk4G3rW/bzLjE6MzqHkUfp2xrINc4LcHE9PtALfi2cP62NekQToil38IVSnisB9tDvYAteQ==",
+      "type": "package",
+      "path": "driverswrapperex/1.2.14",
+      "files": [
+        ".nupkg.metadata",
+        "driverswrapperex.1.2.14.nupkg.sha512",
+        "driverswrapperex.nuspec",
+        "lib/net472/DriversWrapperEx.dll",
+        "lib/net472/DriversWrapperEx.xml"
+      ]
+    },
+    "ini-parser-netstandard/2.5.2": {
+      "sha512": "rTyGzgT/a+mD2HxopOGpb/yWWhu5TTPgF59XUlHjhlNv7dbt9DME/qozIR7HreVAVpNnZSqP9A8TeViK5s949g==",
+      "type": "package",
+      "path": "ini-parser-netstandard/2.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ini-parser-netstandard.2.5.2.nupkg.sha512",
+        "ini-parser-netstandard.nuspec",
+        "lib/net20/INIFileParser.dll",
+        "lib/net20/INIFileParser.xml",
+        "lib/netstandard2.0/INIFileParser.dll",
+        "lib/netstandard2.0/INIFileParser.xml"
+      ]
+    },
+    "LoggerClientCS/3.2.0": {
+      "sha512": "UVJvhoQnYFJiL0ZpZZlgDtPoHmbha5a9bYxf7t+3u2CWny7Da9iMsWSee5ZC2PSDpOzUkbAgOEV4VF0XJxAr3w==",
+      "type": "package",
+      "path": "loggerclientcs/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net462/LoggerClientCS.dll",
+        "loggerclientcs.3.2.0.nupkg.sha512",
+        "loggerclientcs.nuspec"
+      ]
+    },
+    "NuGet.Build.Tasks.Pack/5.7.0": {
+      "sha512": "s78eR8eH+e9XsnySlnNLPWKoROXX2MZBRimptLs1RxAHs5lGThz54g5EBUdadKj+DJ6450mIgf0HdOlZBZpU2g==",
+      "type": "package",
+      "path": "nuget.build.tasks.pack/5.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CoreCLR/NuGet.Build.Tasks.Pack.dll",
+        "CoreCLR/cs/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/de/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/es/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/fr/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/it/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/ja/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/ko/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/pl/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/pt-BR/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/ru/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/tr/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/zh-Hans/NuGet.Build.Tasks.Pack.resources.dll",
+        "CoreCLR/zh-Hant/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/NuGet.Build.Tasks.Pack.dll",
+        "Desktop/cs/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/de/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/es/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/fr/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/it/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/ja/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/ko/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/pl/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/pt-BR/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/ru/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/tr/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/zh-Hans/NuGet.Build.Tasks.Pack.resources.dll",
+        "Desktop/zh-Hant/NuGet.Build.Tasks.Pack.resources.dll",
+        "build/NuGet.Build.Tasks.Pack.targets",
+        "buildCrossTargeting/NuGet.Build.Tasks.Pack.targets",
+        "nuget.build.tasks.pack.5.7.0.nupkg.sha512",
+        "nuget.build.tasks.pack.nuspec"
+      ]
+    },
+    "HwControlApp/1.0.0": {
+      "type": "project",
+      "path": "../HwControlApp/HwControlApp.csproj",
+      "msbuildProject": "../HwControlApp/HwControlApp.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "AppInterfaces >= 2.0.0",
+      "DriversWrapperEx >= 1.2.14",
+      "HwControlApp >= 1.0.0",
+      "LoggerClientCS >= 3.2.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\matantur\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\ATEs\\QuadroCopter\\ATE_QuadroCopter_Dev\\HwControlApp\\HwControlApp.Panel\\HwControlApp.Panel.csproj",
+      "projectName": "HwControlApp.Panel",
+      "projectPath": "C:\\ATEs\\QuadroCopter\\ATE_QuadroCopter_Dev\\HwControlApp\\HwControlApp.Panel\\HwControlApp.Panel.csproj",
+      "packagesPath": "C:\\Users\\matantur\\.nuget\\packages\\",
+      "outputPath": "C:\\ATEs\\QuadroCopter\\ATE_QuadroCopter_Dev\\HwControlApp\\HwControlApp.Panel\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\matantur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "http://dvd12af:8080/artifactory/api/nuget/ATE_Drivers_NuGet/": {},
+        "http://dvd12af:8080/artifactory/api/nuget/VPSD_Projects_NuGet": {},
+        "http://dvd12af:8080/artifactory/api/nuget/nuget-local": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {
+            "C:\\ATEs\\QuadroCopter\\ATE_QuadroCopter_Dev\\HwControlApp\\HwControlApp\\HwControlApp.csproj": {
+              "projectPath": "C:\\ATEs\\QuadroCopter\\ATE_QuadroCopter_Dev\\HwControlApp\\HwControlApp\\HwControlApp.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "AppInterfaces": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
+          "DriversWrapperEx": {
+            "target": "Package",
+            "version": "[1.2.14, )"
+          },
+          "LoggerClientCS": {
+            "target": "Package",
+            "version": "[3.2.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

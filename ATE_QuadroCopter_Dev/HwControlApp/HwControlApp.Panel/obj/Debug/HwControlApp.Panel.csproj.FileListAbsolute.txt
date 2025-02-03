@@ -1,0 +1,17 @@
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp.Panel\bin\Debug\HwControlApp.Panel.exe.config
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp.Panel\bin\Debug\HwControlApp.Panel.exe
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp.Panel\bin\Debug\HwControlApp.Panel.pdb
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp.Panel\bin\Debug\AppInterfaces.dll
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp.Panel\bin\Debug\DriversWrapper.dll
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp.Panel\bin\Debug\DriversWrapperEx.dll
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp.Panel\bin\Debug\INIFileParser.dll
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp.Panel\bin\Debug\LoggerClientCS.dll
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp.Panel\bin\Debug\HwControlApp.dll
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp.Panel\bin\Debug\HwControlApp.pdb
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp.Panel\obj\Debug\HwControlApp.Panel.csproj.AssemblyReference.cache
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp.Panel\obj\Debug\HwControlApp.Panel.Properties.Resources.resources
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp.Panel\obj\Debug\HwControlApp.Panel.csproj.GenerateResource.cache
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp.Panel\obj\Debug\HwControlApp.Panel.csproj.CoreCompileInputs.cache
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp.Panel\obj\Debug\HwControlApp.Panel.csproj.CopyComplete
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp.Panel\obj\Debug\HwControlApp.Panel.exe
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp.Panel\obj\Debug\HwControlApp.Panel.pdb

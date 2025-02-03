@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HwControlApp.Model.Constants" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAQAAAAAIAAAAAAAAAQAAAAAAAAADAAAAAAA=</HashCode>
+      <FileName>Model\Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HwControlApp.Model.Devices" Collapsed="true">
+    <Position X="1.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Devices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HwControlApp.Model.HwControlAppModel" Collapsed="true">
+    <Position X="7" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUUAAAAkCwgAABAAAAIAAAABAAQIAACAAAABAgAAAA=</HashCode>
+      <FileName>Model\HwControlAppModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HwControlApp.Model.OperationResult" Collapsed="true">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Model\OperationResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HwControlApp.Model.PowerSupply" Collapsed="true">
+    <Position X="1.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAACAACACCAIAAAAAAAAAACAAAIAAAACAAgAAAAAA=</HashCode>
+      <FileName>Model\PowerSupply.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HwControlApp.Model.PowerSupplyStatus" Collapsed="true">
+    <Position X="11" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Model\PowerSupplyStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HwControlApp.UI.HwControlAppView" Collapsed="true">
+    <Position X="5" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>UAAiAAgQA2CwAbCIAESEBAjCMGEgClRIECCBBQAIEKA=</HashCode>
+      <FileName>UI\HwControlAppView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HwControlApp.Model.AIO" Collapsed="true">
+    <Position X="3.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAEAAAIAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Model\AIO.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="HwControlApp.Model.IAIO" Collapsed="true">
+    <Position X="3.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Model\IAIO.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HwControlApp.Model.IPowerSupply" Collapsed="true">
+    <Position X="1" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAACAACACCAIAAAAAAAAAACAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Model\IPowerSupply.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="HwControlApp.Model.PowerStatus" Collapsed="true">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HwControlApp.Model.Success" Collapsed="true">
+    <Position X="11.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Model\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

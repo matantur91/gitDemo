@@ -1,0 +1,66 @@
+Version 3.6.2 - 2018/08/01 - N7ta
+- Manage AI process without thread. Enable to retrieve acquired buffer during the process.
+
+
+Version 3.6.1 - 2018/07/17 - N7ta
+- Added support for NI_6321
+
+Version 3.6.0 - 2018/01/04 - Yossic
+- Compiled for RATE bundle V03.05.00
+
+Version 3.5.1 - 2016/12/11 - Nadavzig
+- NI devices changes: 
+	Added support for multiple AI/AO channels read/write (in parallel)
+ 	Config AI channels overrides previous configuration (instead of returning error)
+	Coding faults fixes
+
+Version 3.5.0 - 2016/04/25 - Eranv
+- Recompile release mode.
+- Remove CVI dependencies.
+
+Version 3.4.2 - 2015/12/21 - sergiys
+- Bug fixed related to external variable gbReadInProgress initialization (to FALSE)
+
+Version 3.4.1 - 2015/12/21 - Irenal (Before check on HW)
+- Added support of NI600x.
+- Some small fixes.
+
+Version 3.4.0 - 2015/01/19 - Eranv
+- insert ifdef __cplusplus for C & C++ code.
+- insert Is driver initialized function.
+
+Version 3.3.0 - 2014/12/04 - Talkl
+- Recomplied with updated debugging information
+
+Version 3.2.1 - 2014/06/05 - sergiys
+-add support to ni-6363.
+
+Version 3.1.1 - 2014/02/18 - drorh
+- removed bug when device not exist
+
+Version 3.1.0 - 2013/11/03 - drorh
+- support DENKOVI Real Ch num (1...8)
+
+Version 3.0.1 - 2013/05/28 - drorh
+- support DENKOVI device
+
+Version 3.0.0 - 2013/03/21 - Talkl
+- fixed help panel name & help
+- compiled in stdcall
+- requires: NIDAQmx.dll
+- support only x86 (32 bit) architecture
+- used MALLOC and FREE instead of malloc(), free()
+- removed "Winbase.h", "winver.h"
+- removed Version.lib
+- compatible with DrvTemplate V2.0.0
+- removed INI file from dev environment
+- added INI file example to H file (supports stack size & ATE_Generic.dll integration)
+- fixed timeout when closing device window
+- added support for logger filtering (DrvDIO_SetLogState, DrvDIO_GetLogState) 
+- added default INI file for holding Drivers.INI in case none is entered in 'DrvDIO_Panel.exe'
+- added build date & current Drivers.INI file to help panel.
+- added 'show main' button on the device panel - brings up the main driver panel.
+- added custom stack size for main panel thread & for devices thread & watchdog thread.
+- added threads stack size to log.
+- changed GetDriverFunction method (now using 'GeneralUtilities').
+- added support for hiding frequencies (DrvDIO_GetFrequenciesVisible, DrvDIO_SetFrequenciesVisible)

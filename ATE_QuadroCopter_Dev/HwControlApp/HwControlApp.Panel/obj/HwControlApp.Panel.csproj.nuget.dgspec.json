@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ATEs\\QuadroCopter\\ATE_QuadroCopter_Dev\\HwControlApp\\HwControlApp.Panel\\HwControlApp.Panel.csproj": {}
+  },
+  "projects": {
+    "C:\\ATEs\\QuadroCopter\\ATE_QuadroCopter_Dev\\HwControlApp\\HwControlApp.Panel\\HwControlApp.Panel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ATEs\\QuadroCopter\\ATE_QuadroCopter_Dev\\HwControlApp\\HwControlApp.Panel\\HwControlApp.Panel.csproj",
+        "projectName": "HwControlApp.Panel",
+        "projectPath": "C:\\ATEs\\QuadroCopter\\ATE_QuadroCopter_Dev\\HwControlApp\\HwControlApp.Panel\\HwControlApp.Panel.csproj",
+        "packagesPath": "C:\\Users\\matantur\\.nuget\\packages\\",
+        "outputPath": "C:\\ATEs\\QuadroCopter\\ATE_QuadroCopter_Dev\\HwControlApp\\HwControlApp.Panel\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\matantur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "http://dvd12af:8080/artifactory/api/nuget/ATE_Drivers_NuGet/": {},
+          "http://dvd12af:8080/artifactory/api/nuget/VPSD_Projects_NuGet": {},
+          "http://dvd12af:8080/artifactory/api/nuget/nuget-local": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\ATEs\\QuadroCopter\\ATE_QuadroCopter_Dev\\HwControlApp\\HwControlApp\\HwControlApp.csproj": {
+                "projectPath": "C:\\ATEs\\QuadroCopter\\ATE_QuadroCopter_Dev\\HwControlApp\\HwControlApp\\HwControlApp.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "AppInterfaces": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "DriversWrapperEx": {
+              "target": "Package",
+              "version": "[1.2.14, )"
+            },
+            "LoggerClientCS": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\ATEs\\QuadroCopter\\ATE_QuadroCopter_Dev\\HwControlApp\\HwControlApp\\HwControlApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ATEs\\QuadroCopter\\ATE_QuadroCopter_Dev\\HwControlApp\\HwControlApp\\HwControlApp.csproj",
+        "projectName": "HwControlApp",
+        "projectPath": "C:\\ATEs\\QuadroCopter\\ATE_QuadroCopter_Dev\\HwControlApp\\HwControlApp\\HwControlApp.csproj",
+        "packagesPath": "C:\\Users\\matantur\\.nuget\\packages\\",
+        "outputPath": "C:\\ATEs\\QuadroCopter\\ATE_QuadroCopter_Dev\\HwControlApp\\HwControlApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\matantur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "http://dvd12af:8080/artifactory/api/nuget/ATE_Drivers_NuGet/": {},
+          "http://dvd12af:8080/artifactory/api/nuget/VPSD_Projects_NuGet": {},
+          "http://dvd12af:8080/artifactory/api/nuget/nuget-local": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "AppInterfaces": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "DriversWrapper": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "DriversWrapperEx": {
+              "target": "Package",
+              "version": "[1.2.14, )"
+            },
+            "LoggerClientCS": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "ini-parser-netstandard": {
+              "target": "Package",
+              "version": "[2.5.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

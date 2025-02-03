@@ -1,0 +1,9 @@
+QuadroCopterSimulator.exe
+QuadroCopter.EXE
+PS_Simulator.exe
+DrvAIO_Panel.exe - Shortcut.lnk
+DrvPS_Panel.exe - Shortcut.lnk
+AIO_Simulator.exe
+Simulators/*
+Docs/*
+ATE_QuadroCopter/Bin/*

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ol5qggfGowFxVZZCVK0lbSeYg9B4QNjkjJIuqcACB8ajSmkg5Fkekkaz+KRHUfFdf8s8XS9qgLTUQH0tnTSGig==",
+  "success": true,
+  "projectFilePath": "C:\\ATEs\\QuadroCopter\\ATE_QuadroCopter_Dev\\HwControlApp\\HwControlApp.Panel\\HwControlApp.Panel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matantur\\.nuget\\packages\\appinterfaces\\2.0.0\\appinterfaces.2.0.0.nupkg.sha512",
+    "C:\\Users\\matantur\\.nuget\\packages\\driverswrapper\\1.7.3\\driverswrapper.1.7.3.nupkg.sha512",
+    "C:\\Users\\matantur\\.nuget\\packages\\driverswrapperex\\1.2.14\\driverswrapperex.1.2.14.nupkg.sha512",
+    "C:\\Users\\matantur\\.nuget\\packages\\ini-parser-netstandard\\2.5.2\\ini-parser-netstandard.2.5.2.nupkg.sha512",
+    "C:\\Users\\matantur\\.nuget\\packages\\loggerclientcs\\3.2.0\\loggerclientcs.3.2.0.nupkg.sha512",
+    "C:\\Users\\matantur\\.nuget\\packages\\nuget.build.tasks.pack\\5.7.0\\nuget.build.tasks.pack.5.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

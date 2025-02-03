@@ -1,0 +1,34 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HwControlApp", "HwControlApp\HwControlApp.csproj", "{1A1C3E25-703D-402E-8312-D1589AC6C26F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HwControlApp.Panel", "HwControlApp.Panel\HwControlApp.Panel.csproj", "{1B578930-BEE4-49B5-AC36-C57900F3FEA9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1A1C3E25-703D-402E-8312-D1589AC6C26F} = {1A1C3E25-703D-402E-8312-D1589AC6C26F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A1C3E25-703D-402E-8312-D1589AC6C26F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1C3E25-703D-402E-8312-D1589AC6C26F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1C3E25-703D-402E-8312-D1589AC6C26F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1C3E25-703D-402E-8312-D1589AC6C26F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B578930-BEE4-49B5-AC36-C57900F3FEA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B578930-BEE4-49B5-AC36-C57900F3FEA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B578930-BEE4-49B5-AC36-C57900F3FEA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B578930-BEE4-49B5-AC36-C57900F3FEA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6096CAE6-8739-4ED2-83AE-306B1488F5F4}
+	EndGlobalSection
+EndGlobal

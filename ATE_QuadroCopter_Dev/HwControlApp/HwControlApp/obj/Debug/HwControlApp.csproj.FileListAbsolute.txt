@@ -1,0 +1,16 @@
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp\bin\Debug\HwControlApp.dll
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp\bin\Debug\HwControlApp.pdb
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp\bin\Debug\AppInterfaces.dll
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp\bin\Debug\INIFileParser.dll
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp\bin\Debug\LoggerClientCS.dll
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp\obj\Debug\HwControlApp.UI.HwControlAppView.resources
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp\obj\Debug\HwControlApp.UI.Utility.AboutWindiow.resources
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp\obj\Debug\HwControlApp.Properties.Resources.resources
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp\obj\Debug\HwControlApp.csproj.GenerateResource.cache
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp\obj\Debug\HwControlApp.csproj.CoreCompileInputs.cache
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp\obj\Debug\HwControlApp.csproj.CopyComplete
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp\obj\Debug\HwControlApp.dll
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp\obj\Debug\HwControlApp.pdb
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp\bin\Debug\DriversWrapper.dll
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp\obj\Debug\HwControlApp.csproj.AssemblyReference.cache
+C:\ATEs\QuadroCopter\ATE_QuadroCopter_Dev\HwControlApp\HwControlApp\bin\Debug\DriversWrapperEx.dll

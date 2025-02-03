@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfInterfacePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <InterfacePath>
+    <Path>C:\ATEs\RATE3\RATE\Bin</Path>
+  </InterfacePath>  
+  <InterfacePath>
+    <Path>C:\ATEs\Drivers\Bin</Path>
+  </InterfacePath>  
+</ArrayOfInterfacePath>
