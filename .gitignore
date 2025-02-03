@@ -7,3 +7,5 @@ AIO_Simulator.exe
 Simulators/*
 Docs/*
 ATE_QuadroCopter/Bin/*
+.vs/*
+*.vs
