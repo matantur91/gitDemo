@@ -17,7 +17,7 @@ namespace HwControlApp.Model
         public static int AIOInBufferSize = 250;
         public static int SampleBufferEdgeRemove = 25;
         public static int test1 = 72; :(;(
-        public static int branch3 = 25; ;)
+        public static int branch4 = 25; ;)
 
     }
 }
